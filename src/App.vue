@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    img(src='./assets/logo.png')
+    img(src='dist/logo.png')
     h1 Explorar
 
     select(v-model="selectedCountry")
@@ -80,6 +80,7 @@ ul
 li
   display inline-block
   background #000
+
   padding 15px
   position relative
   cursor pointer

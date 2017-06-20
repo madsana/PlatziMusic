@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    img(src='dist/logo.png')
+    img(src='https://mnl1994.github.io/PlatziMusic/dist/logo.png')
     h1 Explorar
 
     select(v-model="selectedCountry")
